@@ -1,0 +1,4 @@
+RECIPIENT_ID,SENDER_ID,TITLE,BODY
+1,2,Vacation,I will not be in the office the first week of February.
+1,4,Prescription,Can you fax me a copy of my prescription?
+4,1,Re: Prescription,Sure. What is the fax number?

@@ -1,0 +1,12 @@
+Welcome = 1
+Register = 2
+Log in = 3
+Main menu = 4
+Available appointments = 5
+Scheduled appointments (Staff) = 6
+Scheduled appointments (Patient) = 7
+Messages = 8
+Inbox = 9
+Send Message = 10
+Records (Staff) = 11
+Records (Patient) = 12

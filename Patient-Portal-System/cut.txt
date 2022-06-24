@@ -1,0 +1,49 @@
+class Main{
+
+	public static void main(String[] args) {
+
+		static Register register = new Register();
+
+			try (Scanner scanner = new Scanner(System.in)) {
+				System.out.print(" Enter firstName = ");
+				String firstName = scanner.nextLine();
+				register.setFirstName(firstName);
+
+				System.out.print(" Enter lastName = ");
+				String lastName = scanner.nextLine();
+				register.setLastName(lastName);
+
+				System.out.print(" Enter userName = ");
+				String userName = scanner.nextLine();
+				register.setUserName(userName);
+
+				System.out.print(" Enter password = ");
+				String password = scanner.nextLine();
+				register.setPassword(password);
+
+				System.out.print(" Enter emailId = ");
+				String emailId = scanner.nextLine();
+				register.setEmailId(emailId);
+
+				System.out.print(" Enter phoneNo = ");
+				long phoneNo = scanner.nextLong();
+				register.setPhoneNo(phoneNo);
+
+				System.out.println(register.toString());
+		}
+	}
+}
+
+registeredUsers.csv
+USERID, NAME, USERNAME, PASSWORD, EMAIL, IS_STAFF
+1,Adeekshya Gurung,dr_gurung,gurungphd10,TRUE
+2,Alexandra Narez,dr_narez,iamadoctor98,TRUE
+3,John Smith,jsmith,password123,john_smith@yahoo.com,FALSE
+4,Alice Green,aliceisgreen,hunter2,green_a@gmail.com,FALSE
+
+patients.csv
+NAME, AGE, GENDER, PHONE_NUMBER, LAST_FOUR_SSN
+John Smith, 36, M, 5551234567, 1234
+Alice Green, 23, F, 5557654321, 4321
+Bob Carpenter, 49, M, 5558001234, 1982
+

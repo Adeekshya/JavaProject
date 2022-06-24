@@ -1,0 +1,4 @@
+WEEKDAY, MONTH, DATE, YEAR, PATIENT, IS_TAKEN
+Wednesday,December,9,2020,0,FALSE
+Friday,December,11,2020,0,FALSE
+Monday,December,14,2020,0,FALSE

@@ -1,0 +1,5 @@
+USERID, NAME, USERNAME, PASSWORD, EMAIL, IS_STAFF
+1,Adeekshya Gurung,dr_gurung,gurungphd10,ag@gmail.com,TRUE
+2,Alexandra Narez,dr_narez,iamadoctor98,an@gmail.com,TRUE
+3,John Smith,jsmith,password123,john_smith@yahoo.com,FALSE
+4,Alice Green,aliceisgreen,hunter2,green_a@gmail.com,FALSE
